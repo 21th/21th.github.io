@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,11 +132,11 @@
                 <form action="/" method="POST" id="form">
                     <div class="form-control">
                         <label for="name">Фамилия и имя</label>
-                        <input type="text" id="name" name="name" placeholder="Иван Иванов" autocomplete="off">
+                        <input type="text" id="name" name="name" placeholder="Сидоров Александр" autocomplete="off">
                     </div>
                     <div class="form-control">
                         <label for="email">Электронная почта</label>
-                        <input type="text" id="email" name="email" placeholder="Sidorov@yandex.ru" autocomplete="off">
+                        <input type="text" id="email" name="email" placeholder="sidorov@yandex.ru" autocomplete="off">
                     </div>
                     <div class="form-control">
                         <label for="phone">Телефон</label>
@@ -150,11 +151,13 @@
             </div>
         </div>
     </div>
-    <!-- <div class="modal">
-        <div class="message-block">
-
+    <div class="modal hide" id="modal">
+        <div class="modal__message-block">
+            <div class="modal__caption">Ваша заявка отправлена</div>
+            <div class="modal__text">Спасибо, мы свяжемся с Вами в ближайшее время</div>
+            <button class="modal__close-button" id="close-modal">Закрыть</button>
         </div>
-    </div> -->
+    </div>
     <script src="/js/bundle.js"></script>
 </body>
 
