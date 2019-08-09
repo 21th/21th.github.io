@@ -1,1 +1,0 @@
-.photo-container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}.photo-item{width:400px;position:relative;margin-bottom:10px}.photo-desc{position:absolute;bottom:10px;left:0;right:0;background-color:rgba(0,0,0,.5);padding:10px;z-index:10}.photo-desc span{color:#eee}
