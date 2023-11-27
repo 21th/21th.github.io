@@ -2,45 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <link rel="icon" type="image/svg+xml" href="https://21th.github.io/peakpicks/vite.svg"/>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PeakPicks</title>
-  <script type="module" crossorigin src="https://21th.github.io/peakpicks/assets/index-601bb9ea.js"></script>
-  <link rel="stylesheet" href="https://21th.github.io/peakpicks/assets/index-c3d1b76b.css">
+  <script type="module" crossorigin src="/assets/index-b8fd3b1c.js"></script>
+  <link rel="stylesheet" href="/assets/index-eb85a7c3.css">
 </head>
 <body>
 <header class="desktop-header">
-  <div class="logo">
-    <img src="https://21th.github.io/peakpicks/images/logo.svg" alt="Logo Peakpicks">
+  <div class="desktop-header__content">
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Logo Peakpicks">
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#solution">Solution</a>
+        </li>
+        <li>
+          <a href="#how-it-works">How it works</a>
+        </li>
+        <li>
+          <a href="#prices">Prices</a>
+        </li>
+        <li>
+          <a href="#testimonials">Testimonials</a>
+        </li>
+        <li>
+          <a href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header__get-started get-started-button">Get started</button>
+    <button class="header__open-mobile-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <g filter="url(#filter0_b_601_2562)">
+          <rect width="40" height="40" rx="20" fill="#1D1C68" fill-opacity="0.6"/>
+          <path d="M12 15L28 15M12 20L28 20M12 25H28" stroke="#F8FEE3"/>
+        </g>
+        <defs>
+          <filter id="filter0_b_601_2562" x="-8" y="-8" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_601_2562"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_601_2562" result="shape"/>
+          </filter>
+        </defs>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <g>
+          <rect width="40" height="40" rx="20" fill="#1D1C68" fill-opacity="0.6"/>
+          <path d="M20 29.5L20 10.5M10.5 20L29.5 20" stroke="#F8FEE3"/>
+        </g>
+      </svg>
+    </button>
   </div>
-  <nav>
-    <ul>
-      <li>
-        <a href="#solution">Solution</a>
-      </li>
-      <li>
-        <a href="#how-it-works">How it works</a>
-      </li>
-      <li>
-        <a href="#prices">Prices</a>
-      </li>
-      <li>
-        <a href="#testimonials">Testimonials</a>
-      </li>
-      <li>
-        <a href="#faq">FAQ</a>
-      </li>
-    </ul>
-  </nav>
-  <button class="header__get-started get-started-button">Get started</button>
-  <button class="header__open-mobile-menu">
-    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-      <g>
-        <rect width="40" height="40" rx="20" fill="#1D1C68" fill-opacity="0.6"/>
-        <path d="M20 29.5L20 10.5M10.5 20L29.5 20" stroke="#F8FEE3"/>
-      </g>
-    </svg>
-  </button>
 </header>
 
 <div class="mobile-menu">
@@ -76,11 +92,8 @@
   <section class="hero-section">
     <h1>Launch Your Profitable Business with <span class="highlighted">AI Amazon Finder</span></h1>
     <p>Get the best products to sell on Amazon right now with our AI, tailored to your preference</p>
-    <div class="text-center text-left--mobile">
-      <button class="hero-section__button get-started-button">Get started</button>
-    </div>
     <div class="hero-section__screenshot">
-      <img src="https://21th.github.io/peakpicks/images/screenshot.jpeg" alt="Dashboard">
+      <img src="/images/screenshot.jpeg" alt="Dashboard">
     </div>
   </section>
 
@@ -105,11 +118,40 @@
         <div class="problem-section-flow__loader">
           <svg width="50" height="82" viewBox="0 0 50 82" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M37.4086 39.9897C37.7739 40.6138 37.7739 41.3864 37.4086 42.0104L17.726 75.6347C16.6955 77.3951 14 76.6642 14 74.6244V7.37572C14 5.33585 16.6955 4.60493 17.726 6.36536L37.4086 39.9897Z"
-                  fill="#C4E554"/>
+                  fill="#C4E554">
+<!--              <animateTransform-->
+<!--                      attributeName="transform"-->
+<!--                      attributeType="XML"-->
+<!--                      type="translate"-->
+<!--                      dur="3s"-->
+<!--                      from="-50 0"-->
+<!--                      to="50 0"-->
+<!--                      repeatCount="indefinite"/>-->
+            </path>
             <path d="M37.4086 39.9897C37.7739 40.6138 37.7739 41.3864 37.4086 42.0104L17.726 75.6347C16.6955 77.3951 14 76.6642 14 74.6244V7.37572C14 5.33585 16.6955 4.60493 17.726 6.36536L37.4086 39.9897Z"
-                  fill="#C4E554"/>
+                  fill="#C4E554">
+<!--              <animateTransform-->
+<!--                      attributeName="transform"-->
+<!--                      attributeType="XML"-->
+<!--                      type="translate"-->
+<!--                      dur="3s"-->
+<!--                      begin="1s"-->
+<!--                      from="-50 0"-->
+<!--                      to="50 0"-->
+<!--                      repeatCount="indefinite"/>-->
+            </path>
             <path d="M37.4086 39.9897C37.7739 40.6138 37.7739 41.3864 37.4086 42.0104L17.726 75.6347C16.6955 77.3951 14 76.6642 14 74.6244V7.37572C14 5.33585 16.6955 4.60493 17.726 6.36536L37.4086 39.9897Z"
-                  fill="#C4E554"/>
+                  fill="#C4E554">
+<!--              <animateTransform-->
+<!--                      attributeName="transform"-->
+<!--                      attributeType="XML"-->
+<!--                      type="translate"-->
+<!--                      dur="3s"-->
+<!--                      begin="2s"-->
+<!--                      from="-50 0"-->
+<!--                      to="50 0"-->
+<!--                      repeatCount="indefinite"/>-->
+            </path>
           </svg>
         </div>
         <div class="problem-section-flow__right">
@@ -121,122 +163,15 @@
 
       <!-- TABS -->
       <div class="problem-section-tabs">
-        <div class="problem-section-tabs__tab problem-section-tabs__tab--active">Data</div>
-        <div class="problem-section-tabs__tab">Investment</div>
+        <div class="problem-section-tabs__tab problem-section-tabs__tab--active">Data
+        </div>
+        <div class="problem-section-tabs__tab">Investment
+        </div>
         <div class="problem-section-tabs__tab">Time</div>
       </div>
 
       <!-- CARDS -->
       <div class="problem-section-cards">
-
-        <!--    Dummy card (copy of 2nd)   -->
-        <div class="problem-section-card">
-          <div class="problem-section-card__left">
-            <!--    BG DESKTOP        -->
-            <svg class="problem-section__bg-desktop" xmlns="http://www.w3.org/2000/svg" width="479" height="240"
-                 viewBox="0 0 479 240" fill="none">
-              <path d="M0 16C0 7.16344 7.16345 0 16 0H464V89.6436C464 91.0479 464.37 92.4274 465.072 93.6436L477.691 115.5C479.12 117.975 479.12 121.025 477.691 123.5L465.072 145.356C464.37 146.573 464 147.952 464 149.356V240H16C7.16344 240 0 232.837 0 224V151.5C0 148.691 0.7393 145.932 2.14359 143.5L11.3812 127.5C14.2393 122.55 14.2393 116.45 11.3812 111.5L2.14359 95.5C0.7393 93.0677 0 90.3086 0 87.5V16Z"
-                    fill="#1D1C68"/>
-            </svg>
-            <!--    BG TABLET        -->
-            <svg class="problem-section__bg-tablet" xmlns="http://www.w3.org/2000/svg" width="291" height="240"
-                 viewBox="0 0 291 240" fill="none">
-              <path d="M0 16C0 7.16344 7.16344 0 16 0H276V89.6436C276 91.0479 276.37 92.4274 277.072 93.6436L289.691 115.5C291.12 117.975 291.12 121.025 289.691 123.5L277.072 145.356C276.37 146.573 276 147.952 276 149.356V240H16C7.16344 240 0 232.837 0 224V151.5C0 148.691 0.7393 145.932 2.14359 143.5L11.3812 127.5C14.2393 122.55 14.2393 116.45 11.3812 111.5L2.14359 95.5C0.7393 93.0677 0 90.3086 0 87.5V16Z"
-                    fill="#1D1C68"/>
-            </svg>
-            <!-- BG MOBILE -->
-            <svg class="problem-section__bg-mobile" xmlns="http://www.w3.org/2000/svg" width="288" height="216"
-                 viewBox="0 0 288 216" fill="none">
-              <path d="M280 0C284.418 0 288 3.58173 288 8.00001L288 208L157.197 208C156.408 208 155.636 208.234 154.979 208.672L146.205 214.521C144.862 215.417 143.111 215.417 141.768 214.521L132.994 208.672C132.337 208.234 131.565 208 130.775 208L-9.09197e-06 208L-3.49691e-07 7.99999C-1.56562e-07 3.58172 3.58173 -5.3765e-06 8 -5.3765e-06L129.564 -5.3765e-06C131.144 -5.3765e-06 132.688 0.467499 134.002 1.34359L139.549 5.0416C142.236 6.83306 145.737 6.83306 148.424 5.0416L153.971 1.3436C155.285 0.467504 156.829 0 158.409 0L280 0Z"
-                    fill="#1D1C68"/>
-            </svg>
-
-            <div class="problem-section-card__title">Risky Investment Choices:</div>
-            <div class="problem-section-card__text">Without an in-depth understanding of market trends and consumer
-              preferences, sellers often gamble with their investments, sometimes resulting in substantial losses.
-            </div>
-          </div>
-          <div class="problem-section-card__right">
-            <!--    BG DESKTOP        -->
-            <svg class="problem-section__bg-desktop" xmlns="http://www.w3.org/2000/svg" width="479" height="240"
-                 viewBox="0 0 479 240" fill="none">
-              <path d="M479 16C479 7.16344 471.837 0 463 0H15V89.6436C15 91.0479 14.6303 92.4274 13.9282 93.6436L1.30939 115.5C-0.119659 117.975 -0.119659 121.025 1.30939 123.5L13.9282 145.356C14.6303 146.573 15 147.952 15 149.356V240H463C471.837 240 479 232.837 479 224V151.5C479 148.691 478.261 145.932 476.856 143.5L467.619 127.5C464.761 122.55 464.761 116.45 467.619 111.5L476.856 95.5C478.261 93.0677 479 90.3086 479 87.5V16Z"
-                    fill="#F99750"/>
-            </svg>
-            <!--    BG TABLET        -->
-            <svg class="problem-section__bg-tablet" xmlns="http://www.w3.org/2000/svg" width="291" height="240"
-                 viewBox="0 0 291 240" fill="none">
-              <path d="M291 16C291 7.16344 283.837 0 275 0H15V89.6436C15 91.0479 14.6303 92.4274 13.9282 93.6436L1.30939 115.5C-0.119659 117.975 -0.119659 121.025 1.30939 123.5L13.9282 145.356C14.6303 146.573 15 147.952 15 149.356V240H275C283.837 240 291 232.837 291 224V151.5C291 148.691 290.261 145.932 288.856 143.5L279.619 127.5C276.761 122.55 276.761 116.45 279.619 111.5L288.856 95.5C290.261 93.0677 291 90.3086 291 87.5V16Z"
-                    fill="#F99750"/>
-            </svg>
-            <!-- BG MOBILE -->
-            <svg class="problem-section__bg-mobile" xmlns="http://www.w3.org/2000/svg" width="288" height="216"
-                 viewBox="0 0 288 216" fill="none">
-              <path d="M280 216C284.418 216 288 212.418 288 208L288 7.99997L157.197 7.99998C156.408 7.99998 155.636 7.76623 154.979 7.32818L146.205 1.47919C144.862 0.583472 143.111 0.583472 141.768 1.47919L132.994 7.32818C132.337 7.76623 131.565 7.99998 130.775 7.99998L-9.09197e-06 7.99998L-3.49691e-07 208C-1.56562e-07 212.418 3.58173 216 8 216L129.564 216C131.144 216 132.688 215.533 134.002 214.656L139.549 210.958C142.236 209.167 145.737 209.167 148.424 210.958L153.971 214.656C155.285 215.532 156.829 216 158.409 216L280 216Z"
-                    fill="#F99750"/>
-            </svg>
-
-            <div class="problem-section-card__title">Risk-Mitigated Investments:</div>
-            <div class="problem-section-card__text">With strategies specifically designed for high, medium, and low-risk
-              appetites, your investments are always aligned with your comfort and capacity
-            </div>
-          </div>
-        </div>
-
-        <!--    Dummy card (copy of 3rd)   -->
-        <div class="problem-section-card">
-          <div class="problem-section-card__left">
-            <svg class="problem-section__bg-desktop" xmlns="http://www.w3.org/2000/svg" width="479" height="240"
-                 viewBox="0 0 479 240" fill="none">
-              <path d="M0 16C0 7.16344 7.16345 0 16 0H464V89.6436C464 91.0479 464.37 92.4274 465.072 93.6436L477.691 115.5C479.12 117.975 479.12 121.025 477.691 123.5L465.072 145.356C464.37 146.573 464 147.952 464 149.356V240H16C7.16344 240 0 232.837 0 224V151.5C0 148.691 0.7393 145.932 2.14359 143.5L11.3812 127.5C14.2393 122.55 14.2393 116.45 11.3812 111.5L2.14359 95.5C0.7393 93.0677 0 90.3086 0 87.5V16Z"
-                    fill="#1D1C68"/>
-            </svg>
-            <!--    BG TABLET        -->
-            <svg class="problem-section__bg-tablet" xmlns="http://www.w3.org/2000/svg" width="291" height="240"
-                 viewBox="0 0 291 240" fill="none">
-              <path d="M0 16C0 7.16344 7.16344 0 16 0H276V89.6436C276 91.0479 276.37 92.4274 277.072 93.6436L289.691 115.5C291.12 117.975 291.12 121.025 289.691 123.5L277.072 145.356C276.37 146.573 276 147.952 276 149.356V240H16C7.16344 240 0 232.837 0 224V151.5C0 148.691 0.7393 145.932 2.14359 143.5L11.3812 127.5C14.2393 122.55 14.2393 116.45 11.3812 111.5L2.14359 95.5C0.7393 93.0677 0 90.3086 0 87.5V16Z"
-                    fill="#1D1C68"/>
-            </svg>
-            <!-- BG MOBILE -->
-            <svg class="problem-section__bg-mobile" xmlns="http://www.w3.org/2000/svg" width="288" height="216"
-                 viewBox="0 0 288 216" fill="none">
-              <path d="M280 0C284.418 0 288 3.58173 288 8.00001L288 208L157.197 208C156.408 208 155.636 208.234 154.979 208.672L146.205 214.521C144.862 215.417 143.111 215.417 141.768 214.521L132.994 208.672C132.337 208.234 131.565 208 130.775 208L-9.09197e-06 208L-3.49691e-07 7.99999C-1.56562e-07 3.58172 3.58173 -5.3765e-06 8 -5.3765e-06L129.564 -5.3765e-06C131.144 -5.3765e-06 132.688 0.467499 134.002 1.34359L139.549 5.0416C142.236 6.83306 145.737 6.83306 148.424 5.0416L153.971 1.3436C155.285 0.467504 156.829 0 158.409 0L280 0Z"
-                    fill="#1D1C68"/>
-            </svg>
-
-            <div class="problem-section-card__title">Time-Consuming Analysis</div>
-            <div class="problem-section-card__text">Manual analysis of products, pricing, and competition is not only
-              laborious but also detracts focus from other crucial aspects of selling, such as customer service and
-              business expansion.
-            </div>
-          </div>
-          <div class="problem-section-card__right">
-            <svg class="problem-section__bg-desktop" xmlns="http://www.w3.org/2000/svg" width="479" height="240"
-                 viewBox="0 0 479 240" fill="none">
-              <path d="M479 16C479 7.16344 471.837 0 463 0H15V89.6436C15 91.0479 14.6303 92.4274 13.9282 93.6436L1.30939 115.5C-0.119659 117.975 -0.119659 121.025 1.30939 123.5L13.9282 145.356C14.6303 146.573 15 147.952 15 149.356V240H463C471.837 240 479 232.837 479 224V151.5C479 148.691 478.261 145.932 476.856 143.5L467.619 127.5C464.761 122.55 464.761 116.45 467.619 111.5L476.856 95.5C478.261 93.0677 479 90.3086 479 87.5V16Z"
-                    fill="#C4E554"/>
-            </svg>
-            <!--    BG TABLET        -->
-            <svg class="problem-section__bg-tablet" xmlns="http://www.w3.org/2000/svg" width="291" height="240"
-                 viewBox="0 0 291 240" fill="none">
-              <path d="M291 16C291 7.16344 283.837 0 275 0H15V89.6436C15 91.0479 14.6303 92.4274 13.9282 93.6436L1.30939 115.5C-0.119659 117.975 -0.119659 121.025 1.30939 123.5L13.9282 145.356C14.6303 146.573 15 147.952 15 149.356V240H275C283.837 240 291 232.837 291 224V151.5C291 148.691 290.261 145.932 288.856 143.5L279.619 127.5C276.761 122.55 276.761 116.45 279.619 111.5L288.856 95.5C290.261 93.0677 291 90.3086 291 87.5V16Z"
-                    fill="#C4E554"/>
-            </svg>
-            <!-- BG MOBILE -->
-            <svg class="problem-section__bg-mobile" xmlns="http://www.w3.org/2000/svg" width="288" height="216"
-                 viewBox="0 0 288 216" fill="none">
-              <path d="M280 216C284.418 216 288 212.418 288 208L288 7.99997L157.197 7.99998C156.408 7.99998 155.636 7.76623 154.979 7.32818L146.205 1.47919C144.862 0.583472 143.111 0.583472 141.768 1.47919L132.994 7.32818C132.337 7.76623 131.565 7.99998 130.775 7.99998L-9.09197e-06 7.99998L-3.49691e-07 208C-1.56562e-07 212.418 3.58173 216 8 216L129.564 216C131.144 216 132.688 215.533 134.002 214.656L139.549 210.958C142.236 209.167 145.737 209.167 148.424 210.958L153.971 214.656C155.285 215.532 156.829 216 158.409 216L280 216Z"
-                    fill="#C4E554"/>
-            </svg>
-
-
-            <div class="problem-section-card__title">Time-Efficiency:</div>
-            <div class="problem-section-card__text">Liberating you from the shackles of endless analysis, our tool
-              ensures
-              your time is invested where it’s needed most - in growing your business and enhancing customer relations
-            </div>
-          </div>
-        </div>
         <div class="problem-section-card">
           <div class="problem-section-card__left">
             <svg class="problem-section__bg-desktop" xmlns="http://www.w3.org/2000/svg" width="479" height="240"
@@ -395,6 +330,30 @@
   </section>
 
   <section class="how-ai-selects-section" id="how-it-works">
+    <div class="how-ai-selects-parallax-layer-1">
+      <img src="/images/layer-1-1.png" alt="1">
+      <img src="/images/layer-1-2.png" alt="2">
+      <img src="/images/layer-1-3.png" alt="3">
+      <img src="/images/layer-1-4.png" alt="4">
+      <img src="/images/layer-1-5.png" alt="5">
+      <img src="/images/layer-1-6.png" alt="6">
+    </div>
+    <div class="how-ai-selects-parallax-layer-2">
+      <img src="/images/layer-2-1.png" alt="1">
+      <img src="/images/layer-2-2.png" alt="2">
+      <img src="/images/layer-2-3.png" alt="3">
+      <img src="/images/layer-2-4.png" alt="4">
+      <img src="/images/layer-2-5.png" alt="5">
+      <img src="/images/layer-2-6.png" alt="6">
+      <img src="/images/layer-2-7.png" alt="7">
+      <img src="/images/layer-2-8.png" alt="8">
+      <img src="/images/layer-2-9.png" alt="9">
+      <img src="/images/layer-2-10.png" alt="10">
+      <img src="/images/layer-2-11.png" alt="11">
+      <img src="/images/layer-2-12.png" alt="12">
+      <img src="/images/layer-2-13.png" alt="13">
+    </div>
+    
     <h2>How our AI solution select
       the best products
       to&nbsp;sell&nbsp;on&nbsp;Amazon</h2>
@@ -419,7 +378,7 @@
             various product listings, reviews, sales data, and price fluctuations. It also considers data from suppliers
             and external sources to paint a comprehensive picture of the market landscape.
           </div>
-          <img src="https://21th.github.io/peakpicks/images/ai-1.png" alt="Data Aggregation">
+          <img src="/images/ai-1.png" alt="Data Aggregation">
         </div>
         <div class="how-ai-selects-section-card">
           <div class="how-ai-selects-section-card__title">Data Analysis</div>
@@ -428,7 +387,7 @@
             trends, and understanding consumer behaviors. This stage is crucial as it sets the foundation for the
             strategies we develop.
           </div>
-          <img src="https://21th.github.io/peakpicks/images/ai-2.png" alt="Data Analysis">
+          <img src="/images/ai-2.png" alt="Data Analysis">
         </div>
         <div class="how-ai-selects-section-card">
           <div class="how-ai-selects-section-card__title">Strategy Formulation</div>
@@ -437,7 +396,7 @@
             deep understanding of the market dynamics, helping you to make informed decisions whether you prefer a
             conservative approach or are open to taking bigger risks for higher rewards.
           </div>
-          <img src="https://21th.github.io/peakpicks/images/ai-3.png" alt="Strategy Formulation">
+          <img src="/images/ai-3.png" alt="Strategy Formulation">
         </div>
         <div class="how-ai-selects-section-card">
           <div class="how-ai-selects-section-card__title">Real-Time Insights</div>
@@ -445,7 +404,7 @@
             continually monitors the marketplace, offering real-time insights that allow you to pivot your strategies as
             needed. It helps you stay ahead in the game by adapting to the ever-changing market conditions swiftly.
           </div>
-          <img src="https://21th.github.io/peakpicks/images/ai-4.png" alt="Real-Time Insights">
+          <img src="/images/ai-4.png" alt="Real-Time Insights">
         </div>
         <div class="how-ai-selects-section-card">
           <div class="how-ai-selects-section-card__title">Personalized Recommendations</div>
@@ -454,7 +413,7 @@
             you
             to cherry-pick the products that align with your business goals and risk tolerance.
           </div>
-          <img src="https://21th.github.io/peakpicks/images/ai-5.png" alt="Personalized Recommendations">
+          <img src="/images/ai-5.png" alt="Personalized Recommendations">
         </div>
         <div class="how-ai-selects-section-card">
           <div class="how-ai-selects-section-card__title">Maximum Profits, Tailored to You</div>
@@ -463,32 +422,9 @@
             mitigating risks. Embark on your path to becoming an Amazon success story with a tool that transforms data
             into dollars.
           </div>
-          <img src="https://21th.github.io/peakpicks/images/ai-6.png" alt="Maximum Profits, Tailored to You">
+          <img src="/images/ai-6.png" alt="Maximum Profits, Tailored to You">
         </div>
       </div>
-    </div>
-    <div class="how-ai-selects-parallax-layer-1">
-      <img src="https://21th.github.io/peakpicks/images/layer-1-1.png" alt="1">
-      <img src="https://21th.github.io/peakpicks/images/layer-1-2.png" alt="2">
-      <img src="https://21th.github.io/peakpicks/images/layer-1-3.png" alt="3">
-      <img src="https://21th.github.io/peakpicks/images/layer-1-4.png" alt="4">
-      <img src="https://21th.github.io/peakpicks/images/layer-1-5.png" alt="5">
-      <img src="https://21th.github.io/peakpicks/images/layer-1-6.png" alt="6">
-    </div>
-    <div class="how-ai-selects-parallax-layer-2">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-1.png" alt="1">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-2.png" alt="2">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-3.png" alt="3">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-4.png" alt="4">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-5.png" alt="5">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-6.png" alt="6">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-7.png" alt="7">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-8.png" alt="8">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-9.png" alt="9">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-10.png" alt="10">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-11.png" alt="11">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-12.png" alt="12">
-      <img src="https://21th.github.io/peakpicks/images/layer-2-13.png" alt="13">
     </div>
   </section>
 
@@ -598,6 +534,119 @@
               </div>
             </div>
           </div>
+
+          <div class="swiper-slide">
+            <div class="metrics-section-card">
+              <div class="metrics-section-card__header">
+                <span>5</span>
+                <h3>Market Trends and Seasonality</h3>
+              </div>
+              <div class="metrics-section-card-content">
+                <div class="metrics-section-card-content__caption">Google Trends</div>
+                <div class="metrics-section-card-content__text">Leveraging Google Trends data to understand the
+                  seasonality and search interest over time.
+                </div>
+                <div class="metrics-section-card-content__caption">Historical Sales Data</div>
+                <div class="metrics-section-card-content__text">Analyzing past sales data to anticipate future trends.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="metrics-section-card">
+              <div class="metrics-section-card__header">
+                <span>6</span>
+                <h3>Competition</h3>
+              </div>
+              <div class="metrics-section-card-content">
+                <div class="metrics-section-card-content__caption">Number of Competitors</div>
+                <div class="metrics-section-card-content__text">Assessing the competitive landscape by considering the
+                  number of sellers offering similar products.
+                </div>
+                <div class="metrics-section-card-content__caption">Market Share</div>
+                <div class="metrics-section-card-content__text">Understanding the market share of top sellers to gauge
+                  competition.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="metrics-section-card">
+              <div class="metrics-section-card__header">
+                <span>7</span>
+                <h3>Keyword Analysis</h3>
+              </div>
+              <div class="metrics-section-card-content">
+                <div class="metrics-section-card-content__caption">Search Volume</div>
+                <div class="metrics-section-card-content__text">Analyzing the search volume for keywords associated with
+                  a product to determine its visibility and demand.
+                </div>
+                <div class="metrics-section-card-content__caption">Keyword Ranking</div>
+                <div class="metrics-section-card-content__text">Tracking the keyword ranking to optimize listings for
+                  better visibility.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="metrics-section-card">
+              <div class="metrics-section-card__header">
+                <span>8</span>
+                <h3>Supply Chain and Logistics</h3>
+              </div>
+              <div class="metrics-section-card-content">
+                <div class="metrics-section-card-content__caption">Lead Time</div>
+                <div class="metrics-section-card-content__text">Considering the time it takes from ordering a product
+                  from the supplier to having it available for sale.
+                </div>
+                <div class="metrics-section-card-content__caption">Inventory Turnover</div>
+                <div class="metrics-section-card-content__text">Monitoring the rate at which inventory is sold and
+                  replaced.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="metrics-section-card">
+              <div class="metrics-section-card__header">
+                <span>9</span>
+                <h3>Advertising Effectiveness</h3>
+              </div>
+              <div class="metrics-section-card-content">
+                <div class="metrics-section-card-content__caption">ACoS (Advertising Cost of Sale)</div>
+                <div class="metrics-section-card-content__text">Evaluating the effectiveness of advertising campaigns
+                  through the ACoS metric.
+                </div>
+                <div class="metrics-section-card-content__caption">CTR (Click-Through Rate)</div>
+                <div class="metrics-section-card-content__text">Measuring the success of online ads by tracking the
+                  CTR.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="metrics-section-card">
+              <div class="metrics-section-card__header">
+                <span>10</span>
+                <h3>Legal and Compliance</h3>
+              </div>
+              <div class="metrics-section-card-content">
+                <div class="metrics-section-card-content__caption">Regulatory Compliance</div>
+                <div class="metrics-section-card-content__text">Ensuring the products adhere to the necessary regulatory
+                  standards.
+                </div>
+                <div class="metrics-section-card-content__caption">Patent Issues</div>
+                <div class="metrics-section-card-content__text">Avoiding products with potential patent infringements to
+                  steer clear of legal troubles.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -661,8 +710,8 @@
         <div class="case__title case__title--desktop-tablet">The New Entrant</div>
         <div class="case__content">
           <div class="case__image">
-            <img src="https://21th.github.io/peakpicks/images/case-photo-1.png" alt="Photo 1">
-            <img src="https://21th.github.io/peakpicks/images/case-photo-1-fx.png" alt="Photo 1">
+            <img src="/images/case-photo-1.png" alt="Photo 1">
+            <img src="/images/case-photo-1-fx.png" alt="Photo 1">
           </div>
           <div class="case__title case__title--phone">The New Entrant</div>
           <div class="case__text">Meet <b>Sarah</b>, a budding entrepreneur who started with a modest initial budget of
@@ -702,8 +751,8 @@
         <div class="case__title case__title--desktop-tablet">The Expanding Business</div>
         <div class="case__content">
           <div class="case__image">
-            <img src="https://21th.github.io/peakpicks/images/case-photo-2.png" alt="Photo 2">
-            <img src="https://21th.github.io/peakpicks/images/case-photo-2-fx.png" alt="Photo 2">
+            <img src="/images/case-photo-2.png" alt="Photo 2">
+            <img src="/images/case-photo-2-fx.png" alt="Photo 2">
           </div>
           <div class="case__title case__title--phone">The Expanding Business</div>
           <div class="case__text">David had a small but stable business selling home accessories. Eager to take it to
@@ -743,8 +792,8 @@
         <div class="case__title case__title--desktop-tablet">The High-Risk Taker</div>
         <div class="case__content">
           <div class="case__image">
-            <img src="https://21th.github.io/peakpicks/images/case-photo-3.png" alt="Photo 3">
-            <img src="https://21th.github.io/peakpicks/images/case-photo-3-fx.png" alt="Photo 3">
+            <img src="/images/case-photo-3.png" alt="Photo 3">
+            <img src="/images/case-photo-3-fx.png" alt="Photo 3">
           </div>
           <div class="case__title case__title--phone">The High-Risk Taker</div>
           <div class="case__text">Emily was no stranger to the Amazon marketplace, having sold products for several
@@ -805,13 +854,13 @@
       </div>
       <div class="how-it-works-section__right-column">
         <div class="how-it-works-section__image-card">
-          <img src="https://21th.github.io/peakpicks/images/how-step-1.svg" alt="Sing up">
+          <img src="/images/how-step-1.svg" alt="Sing up">
         </div>
         <div class="how-it-works-section__image-card">
-          <img src="https://21th.github.io/peakpicks/images/how-step-2.svg" alt="Sing up">
+          <img src="/images/how-step-2.svg" alt="Sing up">
         </div>
         <div class="how-it-works-section__image-card">
-          <img src="https://21th.github.io/peakpicks/images/how-step-3.svg" alt="Sing up">
+          <img src="/images/how-step-3.svg" alt="Sing up">
         </div>
       </div>
       <div class="progress-bar">
@@ -960,7 +1009,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-1.png" alt="Author 1">
+                <img src="/images/author-1.png" alt="Author 1">
               </div>
               <div class="testimonial-card__author-info">
                 <span>William McPau</span>
@@ -975,7 +1024,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-2.png" alt="Author 2">
+                <img src="/images/author-2.png" alt="Author 2">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Mariah Mae</span>
@@ -989,7 +1038,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-3.png" alt="Author 3">
+                <img src="/images/author-3.png" alt="Author 3">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Logan Boy</span>
@@ -1005,7 +1054,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-4.png" alt="Author 4">
+                <img src="/images/author-4.png" alt="Author 4">
               </div>
               <div class="testimonial-card__author-info">
                 <span>John Finati</span>
@@ -1021,7 +1070,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-5.png" alt="Author 5">
+                <img src="/images/author-5.png" alt="Author 5">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Jessica Smith</span>
@@ -1039,7 +1088,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-6.png" alt="Author 6">
+                <img src="/images/author-6.png" alt="Author 6">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Andy Smith</span>
@@ -1060,7 +1109,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-1.png" alt="Author 1">
+                <img src="/images/author-1.png" alt="Author 1">
               </div>
               <div class="testimonial-card__author-info">
                 <span>William McPau</span>
@@ -1074,7 +1123,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-3.png" alt="Author 3">
+                <img src="/images/author-3.png" alt="Author 3">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Logan Boy</span>
@@ -1090,7 +1139,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-5.png" alt="Author 5">
+                <img src="/images/author-5.png" alt="Author 5">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Jessica Smith</span>
@@ -1108,7 +1157,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-6.png" alt="Author 6">
+                <img src="/images/author-6.png" alt="Author 6">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Andy Smith</span>
@@ -1122,7 +1171,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-4.png" alt="Author 4">
+                <img src="/images/author-4.png" alt="Author 4">
               </div>
               <div class="testimonial-card__author-info">
                 <span>John Finati</span>
@@ -1135,7 +1184,7 @@
             </div>
             <div class="testimonial-card__author">
               <div class="testimonial-card__image">
-                <img src="https://21th.github.io/peakpicks/images/author-2.png" alt="Author 2">
+                <img src="/images/author-2.png" alt="Author 2">
               </div>
               <div class="testimonial-card__author-info">
                 <span>Mariah Mae</span>
@@ -1149,6 +1198,7 @@
   </section>
 
   <section class="cta-section">
+    <div class="cta-section__background"></div>
     <h2><span>Start</span>
       <span>making</span> <span>money</span>
       <span>with</span> <span>PeakPicks</span>
@@ -1258,7 +1308,9 @@
             <label>
               <input id="subscribe-email-input" name="email" type="email" placeholder="Your email">
             </label>
-            <button id="subscribe-button">Subscribe</button>
+            <button id="subscribe-button">
+              Subscribe
+            </button>
           </div>
           <div class="subscription-info">By subscribing to our newsletter
             you agree with our Terms and Conditions.
@@ -1302,7 +1354,7 @@
         </svg>
       </button>
     </div>
-    
+
     <form action="/">
       <div class="modal__form">
         <div class="select">
